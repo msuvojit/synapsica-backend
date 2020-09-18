@@ -1,0 +1,25 @@
+{
+  "name": "synapsica-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "NPM_CONFIG_PRODUCTION=true nodemon server",
+    "start": "NPM_CONFIG_PRODUCTION=false nodemon server",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true"
+  },
+  "author": "Suvojit",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "5.8.3",
+    "serverless-http": "^2.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
+}

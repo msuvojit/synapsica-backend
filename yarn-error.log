@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/Users/arrjay/Library/Android/sdk/emulator:/Users/arrjay/Library/Android/sdk/tools:/Users/arrjay/Library/Android/sdk/tools/bin:/Users/arrjay/Library/Android/sdk/platform-tools:/Users/arrjay/Library/Android/sdk/emulator:/Users/arrjay/Library/Android/sdk/tools:/Users/arrjay/Library/Android/sdk/tools/bin:/Users/arrjay/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, scandir '/Users/arrjay/.config/yarn/link'
+
+npm manifest: 
+  {
+    "name": "angel-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "server": "nodemon server",
+      "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true"
+    },
+    "author": "Suhail",
+    "license": "MIT",
+    "dependencies": {
+      "aws-sdk": "^2.631.0",
+      "bcryptjs": "^2.4.3",
+      "bluebird": "^3.7.2",
+      "config": "^3.2.4",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "express-validator": "^6.3.0",
+      "file-type": "^14.1.3",
+      "fs": "0.0.1-security",
+      "jsonwebtoken": "^8.5.1",
+      "mongodb": "^3.5.4",
+      "mongoose": "5.8.3",
+      "multer": "^1.4.2",
+      "multiparty": "^4.2.1",
+      "nodemailer": "^6.4.2",
+      "read-excel-file": "^4.0.5"
+    },
+    "devDependencies": {
+      "concurrently": "^5.0.2",
+      "nodemon": "^2.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
